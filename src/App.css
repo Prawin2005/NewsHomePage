@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@import 'bootstrap/dist/css/bootstrap.min.css';
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}  
+.img{
+  margin-left: 420px;
+ margin-top: 20px;
+  width: 50%;
+  padding-top: 25px;
+  padding-bottom: 0px;
+}
+.hero{
+  
+  margin-top: 0px;
+  padding-top: 0px;
+  border-radius: 5px;
+}
+.trend{
+  margin-left: 420px;
+  margin-right: 0px; 
+  width: 60%;
+  gap: 20px;
+  padding-top: 5px;
+  
+  box-shadow: #e5e5e6;
+}
+.font{
+  font-style: bold;
+  font-size: 20px;
+}
+.bg{
+  color: rgb(236, 236, 9);
+  background-color: yellow;
+}
+/* .news{
+  background-color: rgb(29, 28, 28);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+} */
