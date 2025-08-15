@@ -36,6 +36,12 @@
   color: rgb(236, 236, 9);
   background-color: yellow;
 }
+.paragraph {
+  
+  font-size: 15px;
+  line-height: 1.5;
+  
+}
 /* .news{
   background-color: rgb(29, 28, 28);
   color: white;
